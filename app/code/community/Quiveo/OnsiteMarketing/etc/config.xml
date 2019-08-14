@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quiveo_OnsiteMarketing>
+            <version>1.0.0</version>
+        </Quiveo_OnsiteMarketing>
+    </modules>
+
+    <global>
+        <helpers>
+            <quiveo>
+                <class>Quiveo_OnsiteMarketing_Helper</class>
+            </quiveo>
+        </helpers>
+    </global>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <Quiveo_OnsiteMarketing>
+                    <files>
+                        <default>Quiveo_OnsiteMarketing.csv</default>
+                    </files>
+                </Quiveo_OnsiteMarketing>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <frontend>
+        <layout>
+            <updates>
+                <quiveo>
+                    <file>quiveo.xml</file>
+                </quiveo>
+            </updates>
+        </layout>
+    </frontend>
+</config>

@@ -1,0 +1,22 @@
+<?php
+/**
+* @category Customer Service Version 1.0.0
+* @package Quiveo_OnsiteMarketing
+* @author Quiveo GmbH <info@quiveo.de>
+* @copyright Quiveo GmbH
+* @license www.quiveo.de/agb.html
+*/
+
+if (Mage::getStoreConfig('quiveo/quiveo/enabled')) { ?>
+<script lang="application/javascript">
+    (function(d, s, id){
+        var quiveo_project_id = <?php echo Mage::getStoreConfig('quiveo/quiveo/project_id'); ?>;
+        var url = 'https://system.quiveo.de/visitor/index/preload?id=';
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)){ return; }
+        js = d.createElement(s); js.id = id;
+        js.src = url + quiveo_project_id;
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'quiveoPreload'));
+</script>
+<?php } ?>

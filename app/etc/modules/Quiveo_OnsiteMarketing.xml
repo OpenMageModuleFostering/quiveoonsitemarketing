@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Quiveo_OnsiteMarketing>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Quiveo_OnsiteMarketing>
+    </modules>
+</config>

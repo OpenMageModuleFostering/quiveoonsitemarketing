@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+    <name>QuiveoOnsiteMarketing</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="www.quiveo.de/agb.html">Custom License - SaaS</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Quiveo Onsite Marketing tool for your success.</summary>
+    <description>&amp;lt;h1&amp;gt;Quiveo Onsite Marketing Tool&amp;lt;/h1&amp;gt;&#xD;
+&amp;lt;h2&amp;gt;Why you need Quiveo?&amp;lt;/h2&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Did you ever asked yourself why so many visitors are going to leave your website without any conversion?&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Don&amp;apos;t you know how to track the success of marketing campaigns?&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Would you like to know how to increase your conversion rate with a great marketing tool called Quiveo?&amp;lt;/p&amp;gt;&#xD;
+&#xD;
+&amp;lt;h2&amp;gt;What can you achieve with Quiveo?&amp;lt;/h2&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Our tool gives you the ability to display and style custom popups (e.g. popups, content) to special visitors and visitorgroups.&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Get newsletter subscriptions&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Make intelligent redirects&amp;lt;/p&amp;gt;&#xD;
+&#xD;
+&amp;lt;h2&amp;gt;How it works?&amp;lt;/h2&amp;gt;&#xD;
+&amp;lt;p&amp;gt;You can easily setup your project by integrating the JavaScript-snippet on your website - easy setup within 5 minutes&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Select 30 themes and customize them according to your needs&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Decide when you like to display the playout to your visitors: On leave (Exit-Intent), on scrolling (Scroll-Level-Detection), Trigger of Elements and much more&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;You can manage your participants by our newsletter integration APIs like MailChimp, Cleverreach and GetResponse&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Track your success by extensive statistics given&amp;lt;/p&amp;gt;&#xD;
+&#xD;
+&amp;lt;h2&amp;gt;Subscribe today &#x2013; you won&amp;apos;t regret it!&amp;lt;/h2&amp;gt;&#xD;
+&amp;lt;p&amp;gt;You can use 14 days trial without any risk&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;We are offering specialized packages for each business unit, depending on your needs and visitor load per month&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Extensive online documentation as well as help videos are available&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Easy account management: Upgrade your package at any time&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Newsletter integration APIs available &#x2013; additionally, you can export your participants as csv&amp;lt;/p&amp;gt;&#xD;
+&#xD;
+&amp;lt;p&amp;gt;More information on our website: &amp;lt;a href=&amp;quot;www.quiveo.de&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;www.quiveo.de&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;&#xD;
+&amp;lt;p&amp;gt;Subscribe to the 14 days trial stage: &amp;lt;a href=&amp;quot;www.quiveo.de/demo.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;www.quiveo.de/demo.html&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;</description>
+    <notes>Initial version</notes>
+    <authors><author><name>Patrick Ostolski</name><user>Quiveo</user><email>info@quiveo.de</email></author></authors>
+    <date>2016-04-06</date>
+    <time>10:10:37</time>
+    <contents><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="quiveo"><file name="js.phtml" hash="15f5656eebcbd3685a01b789bd719aa5"/></dir></dir><dir name="layout"><file name="quiveo.xml" hash="f9e0b02f52a19c7df387f9b348fb0d75"/></dir></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><file name="Quiveo_OnsiteMarketing.csv" hash="910cc33de71c4cd76d7098e7938a49fd"/></dir><dir name="de_DE"><file name="Quiveo_OnsiteMarketing.csv" hash="23e80e8a6d112f8ef9202ec97a93d1e9"/></dir></target><target name="magecommunity"><dir name="Quiveo"><dir name="OnsiteMarketing"><dir><dir name="Helper"><file name="Data.php" hash="69008827d59f4f52e8f3963cf64deb8b"/></dir><dir name="etc"><file name="adminhtml.xml" hash="4956022dec0a03d601e9dee6df525634"/><file name="config.xml" hash="b49604f03d1d31c572ccb2e4d4f48d0e"/><file name="system.xml" hash="12adc63eafbd1a06560c6efeffadbf3e"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Quiveo_OnsiteMarketing.xml" hash="6c00b624d5c8426b2e626a382facb431"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>8.0.0</max></php></required></dependencies>
+</package>
