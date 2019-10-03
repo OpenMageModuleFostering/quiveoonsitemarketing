@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/QuiveoOnsiteMarketing",
+    "name": "OpenMageModuleFostering\/QuiveoOnsiteMarketing",
     "type": "magento-module",
     "license": "Custom-License---SaaS",
     "homepage": "",
     "description": "Quiveo Onsite Marketing tool for your success.",
     "authors": [
-    {
-        "name": "Patrick Ostolski",
-        "email": "info@quiveo.de"
-    }
-],
+        {
+            "name": "Patrick Ostolski",
+            "email": "info@quiveo.de"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
